@@ -40,8 +40,8 @@ a:hover {
     align-self: center;
     margin-right: 20px;
 }
-#zaloguj-się {
-    grid-area: zaloguj-się;
+#sign-in {
+    grid-area: sign-in;
     justify-self: center;
     align-self: center;
     background-color: #4683ea;
