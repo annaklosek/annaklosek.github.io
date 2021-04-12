@@ -2,7 +2,6 @@ body {
     min-height: 100%;
     position: relative;
 }
-
 #topbar {
     display: flex;
     height: 64px;
@@ -11,8 +10,7 @@ body {
     position: fixed;
     background-color: white;
 }
-
-#panelszukania {
+#szukanie {
     height: 30px;
     padding: 0px 28px 10px 30px;
     cursor: pointer;
@@ -24,14 +22,12 @@ body {
     margin-right: -2px;
     background-color: white;
 }
-
 #przyciskszukaj svg {
     height: 25px;
     width: 35px;
     position: relative;
     left: -3px;
 }
-
 #przyciskszukaj svg path {
     fill: #3777df
 }
@@ -62,9 +58,7 @@ html, body {
     margin-left: auto;
     background-color: white;
 }
-
-
-#oknoszukaj {
+#szukaj {
     width: 625px;
     height: 45px;
     border-radius: 100px;
@@ -78,12 +72,11 @@ html, body {
     display: flex;
     z-index: 100;
 }
-
-#oknoszukaj:hover {
+#szukaj:hover {
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
-#oknoszukaj > input {
+#szukaj > input {
     height: 45px;
     border-style: none;
     font-size: 16px;
@@ -91,17 +84,14 @@ html, body {
     padding-left: 20px;
     flex: 1;
 }
-
-#oknoszukaj > input:focus {
+#szukaj > input:focus {
     outline: none;
 }
-
-#oknoszukaj button {
+#szukaj button {
     border: none;
     cursor: pointer;
 }
-
-#oknoszukaj button:focus {
+#szukaj button:focus {
     outline: none;
 }
 
@@ -130,7 +120,7 @@ html, body {
     padding: 0px 10px 15px 20px;
 }
 
-#wszystkiewyniki {
+#strony {
     margin-left: 150px;
     font-family: 'Arial';
 }
@@ -140,11 +130,11 @@ html, body {
     color: gray;
 }
 
-.wynik {
+.strona {
     margin-left: 8px;
 }
 
-.wynik h2 {
+.strona h2 {
     font-size: 19px;
     line-height: 18px;
     font-weight: normal;
@@ -153,14 +143,13 @@ html, body {
     margin-top: 25px;
 }
 
-.wynik a {
+.strona a {
     font-size: 14px;
     line-height: 14px;
     color: green;
     margin-bottom: 0px;
 }
-
-.wynik button {
+.strona button {
     font-size: 10px;
     line-height: 14px;
     color: green;
@@ -169,7 +158,6 @@ html, body {
     border-width: 0px;
     background-color: white;
 }
-
 #bellicon {
     width: 20px;
     height: 20px;
@@ -191,11 +179,9 @@ html, body {
     margin-bottom: 0px;
     padding-bottom: 10px;
 }
-
 #dolnaczesc li {
     padding-right: 30px;
 }
-
 #opcje {
     width: 100%;
     height: 50px;
@@ -231,7 +217,7 @@ html, body {
     z-index: -1;
 }
 
-.wynik p {
+.strona p {
     width: 625px;
     font-size: 13px;
     margin-top: 0px;
@@ -259,11 +245,9 @@ html, body {
     justify-content: space-between;
     width: 500px;
 }
-
 .relatedlists ul li {
     margin-bottom: 8px;
 }
-
 .pagelist {
     list-style: none;
     color: rgb(29, 135, 255);
@@ -273,7 +257,6 @@ html, body {
     margin-bottom: 30px;
     margin-left: 320px;
 }
-
 .pagelistprevious::before {
     content: '<';
     display: block;
@@ -284,7 +267,6 @@ html, body {
     font-size: 20px;
     transform: scale(0.7, 1.2);
 }
-
 .pagelistprevious::after {
     content: '';
     display: block;
@@ -297,12 +279,10 @@ html, body {
     background-repeat: no-repeat;
     background-size: 28px;
 }
-
 .pagelistfirst {
     margin-left: 20px;
     font-size: 13px;
 }
-
 .pagelistnumber::before, .pagelistfirst::before {
     content: '';
     display: block;
@@ -315,7 +295,6 @@ html, body {
     background-color: white;
     z-index: 3;
 }
-
 .pagelistnumber::after {
     content: '';
     display: block;
@@ -328,7 +307,6 @@ html, body {
     background-color: rgb(255, 196, 0);
     z-index: 2;
 }
-
 .pagelistfirst::after {
     content: '';
     display: block;
@@ -341,17 +319,14 @@ html, body {
     background-color: red;
     z-index: 2;
 }
-
 .pagelist li {
     margin-right: 15px;
     position: relative;
 }
-
 .pagelistnext {
     margin-left: 40px;
     font-size: 13px;
 }
-
 .pagelistnext::before {
     content: '>';
     display: block;
@@ -362,7 +337,6 @@ html, body {
     font-size: 20px;
     transform: scale(0.7, 1.2);
 }
-
 .pagelistnext::after {
     content: '';
     display: block;
@@ -375,8 +349,6 @@ html, body {
     background-repeat: no-repeat;
     background-size: 48px;
 }
-
-
 #dolnypasek {
     background-color: rgb(240, 239, 239);
     position: relative;
@@ -388,22 +360,17 @@ html, body {
     color: rgb(85, 85, 85);
 }
 
-
-
-#footerlocation {
+#flokalizacja {
     display: flex;
     direction: row;
     margin-left: 175px;
     position: relative;
     top: -5px;
 }
-
-#footerlocation p:nth-of-type(1) {
+#flokalizacja p:nth-of-type(1) {
     font-weight: bold;
 }
  
-
-
 table {
   margin: 120 auto;
   text-align: center;
@@ -412,7 +379,6 @@ table {
   margin-bottom: 20px;
   font-weight: bold;
 }
-
 .pageNumber {
   font-size: 12px;
   color: rgb(16, 58, 212);
