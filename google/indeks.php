@@ -12,7 +12,6 @@
 		<script src="cities.js" ></script>
 		<script src="https://kit.fontawesome.com/ffc589d0fc.js" crossorigin="anonymous"></script>
     </head>
-
 	<body class="home">
         <div id="start" :class="{results : aktywne()}">
     
@@ -323,7 +322,6 @@
                         <a class="sekcja-item link odstep">Jak działa wyszukiwarka</a> 
                         <img  style="width:12px;height:15px;margin-top:13px;margin-left:30px;" src="lisc_footer.png"/>                       
                         <a class="sekcja-item link odstep" style="margin-left:-5px;">Neutralność węglowa od 2007 roku</a>
-
                         
                     </section>
                     <section class="f_flex_element sekcja druga">

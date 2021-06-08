@@ -24,8 +24,8 @@ body main{
     grid-area: main;
     position:relative;
     align-self: center;
-  justify-self: center;
-  margin-top:auto;
+    justify-self: center;
+    margin-top:100px;
     height: 100%;
     width: 100%;
 }
@@ -209,6 +209,7 @@ body .pasek-flex:hover,.pasek-flex:active {
     margin-bottom:15px;
     align-items: center;
 }
+
 body img.lupa{
     width: 15px;
     height: 15px;
@@ -234,7 +235,7 @@ body img.mikrofon{
     margin-right:0;
     margin-bottom: 5px;
 }
-body .input{
+body .input_wyszukiwanie{
     color: transparent;
     flex: 100%;
     width:100%;
@@ -250,6 +251,16 @@ body .input{
     align-self: flex-end;
     margin-bottom:6px;
     font-size: 18px;
+}
+.home .grey-przycisk:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.home .przycisk:hover
+{
+	border: 1px solid #aaa;
 }
 .home .przycisk{
     background-color: #f8f9fa;
@@ -268,16 +279,8 @@ body .input{
     user-select: none;
 }
 
-.home .przycisk:hover
-{
-	border: 1px solid #aaa;
-}
-.home .grey-przycisk:hover{
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
-    color: #202124;
-}
+
+
 .home .grey-przycisk:focus{
     border: 1px solid #4d90fe;
     outline: none;
